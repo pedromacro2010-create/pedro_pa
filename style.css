@@ -9,3 +9,6 @@ body {
     background: #090d16;
     color: antiquewhite;
 }
+body ::before,body::after {
+    content: '';
+}
